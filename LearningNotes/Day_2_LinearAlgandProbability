@@ -13,7 +13,28 @@ Area Under the Normal Distribution
 
 The distance in terms of number of standard deviations, the observed value is away from the mean, is the standard score or the Z score.
 
-A positive Z score indicates that the observed value is Z standard deviations above the mean. Negative Z score indicates that the value is below the mean.
+A positive Z score indicates that the observed value is Z standard deviations above the mean. 
+Negative Z score indicates that the value is below the mean.
 
 
-Observed value = µ+zσ [µ is the mean and σ is the standard deviation]
+Observed value = µ+zσ 
+                [µ is the mean and σ is the standard deviation]
+                
+                
+Challenge 1: Try calculating the probability of getting 50 heads and 50 tails on 100 flips of fair coins? 
+              This expectation is known as the gambler’s fallacy!
+
+Solution - 
+             ncr * P(Success)^50 * P(fail)^50, n=100, r=50
+            =100c50 * (.5)^100
+            where 100c50=100891344545564193334812497256
+            =0.07958924
+
+
+Challenge 2: In the United States, the average IQ is 100, with a standard deviation of 15. 
+              What percentage of the population would you expect to have an IQ more than 120?
+              
+Solution -
+            Z score= (120-100)/15 =1.33
+            Use the z table and z=1.33 corresponds to 0.9082 which is the area under the curvefrom -infinity to 120. 
+            but we need people with iq greater than 120 , so 1-0.9082= 0.0918 ==> 9.18%
