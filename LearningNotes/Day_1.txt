@@ -1,0 +1,15 @@
+<H2>Intro to Python for Data Science
+
+1. Python Data Type
+  - int, float, str, bool
+  - get the datatype of a variable using - type() function
+  
+2. Python List
+  houselist = ["hall", 1.21, "bedroom", 2.4]
+  
+3. Numpy Package - 
+    from numpy import array
+    housearray=np.array(houselist)
+    
+
+
