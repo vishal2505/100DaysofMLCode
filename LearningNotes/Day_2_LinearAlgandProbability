@@ -1,0 +1,19 @@
+Probability -
+=============
+
+The Probability for getting k successes in n Bernoulli trails is given by:
+
+P(X=k) = nCk pk qn-k  ,  [here p is the probability of success and q is the probability of failure]
+
+========================
+
+Area Under the Normal Distribution
+====================================
+
+
+The distance in terms of number of standard deviations, the observed value is away from the mean, is the standard score or the Z score.
+
+A positive Z score indicates that the observed value is Z standard deviations above the mean. Negative Z score indicates that the value is below the mean.
+
+
+Observed value = µ+zσ [µ is the mean and σ is the standard deviation]
