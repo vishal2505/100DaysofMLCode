@@ -1,15 +1,55 @@
 <H2>Intro to Python for Data Science
 
 1. Python Data Type
+
   - int, float, str, bool
   - get the datatype of a variable using - type() function
   
 2. Python List
-  houselist = ["hall", 1.21, "bedroom", 2.4]
+
+  - e.g. houselist = ["hall", 1.21, "bedroom", 2.4]
+  - List Slicing -
+      [:] - entire list
+      [1:3] - from element at index 1 to element at index 2
+      [2:] - from element at index 2 to the rest of the list
+      [:5] - from the elemtnet at index 0 to the element at index 4.
   
-3. Numpy Package - 
+  
+ 3. Numpy Package - 
+
     from numpy import array
     housearray=np.array(houselist)
     
+    or
+     numpy_array = np.array([1, 2, 3])
+    
+ 
+ 4. Diffenece between Python List and Array -
+ 
+    1. Python List operations like +, -, *, applied on the entire list not element wise.
+       Python array - opertaions applied on the element.
+  
+    2. Python List is mutable.
+       Python Array is Immutable.
+ 
+    3. List can have elements of multiple data types.
+       Array can have datatype of a single data type.
+    
+  5. 2D List and Array -
+    
+     - List example - 
+        houselist = [[2,3,4],[3,4,5],[2,7,8]]
+        
+     - Array Example -
+         np_2d = np.array([[1.73, 1.68, 1.71, 1.89, 1.79],
+                          [65.4, 59.2, 63.6, 88.4, 68.7]]) 
+         np_2d.shape
+          (2, 5)
+          
+          np_2d[0]
+          array([ 1.73, 1.68, 1.71, 1.89, 1.79])
+           
+          np_2d[0][2]
+          1.71
 
 
