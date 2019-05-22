@@ -9,3 +9,7 @@
 <H2> Week 4 : Neural Networks - Representation
   
 <H2> Week 5 : Neural Networks - Model Learning
+
+<H2> Week 6 : Advice for Machine Leanring
+
+<H2> Week 7 : Support Vector Machine
